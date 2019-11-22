@@ -45,7 +45,7 @@ function debug_bar_elementor_register_panel( $panels ) {
 
 function debug_bar_elementor_enqueue_scripts() {
 	wp_enqueue_script( 'debug-bar-elementor', plugins_url( 'assets/js/main.js', __FILE__ ), [ 'jquery-ui-accordion' ], null, true );
-	wp_enqueue_style( 'jquery-ui-base', 'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' );
+	wp_enqueue_style( 'jquery-ui-base', plugins_url( 'assets/css/jquery-ui.css', __FILE__ )  );
 	wp_enqueue_style( 'debug-bar-elementor', plugins_url( 'assets/css/main.css', __FILE__ ) );
 }
 
