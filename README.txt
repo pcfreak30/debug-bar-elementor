@@ -2,8 +2,8 @@
 Contributors: pcfreak30
 Donate link: https://www.paypal.me/pcfreak30
 Tags: elementor, profile, profiler, debug bar
-Requires at least: 4.0
-Tested up to: 4.8
+Requires at least: 5.3
+Tested up to: 5.3
 Stable tag: trunk
 Requires PHP: 5.4
 License: GPLv3 or later
